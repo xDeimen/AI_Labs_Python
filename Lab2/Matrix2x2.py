@@ -9,8 +9,9 @@ df = pd.DataFrame(data, columns= ['y_Actual', 'y_Predicted'])
 print(df)
 print()
 
+# To get different .png with All column and row, we add margins = True, to crosstab function
 confusion_matrix = pd.crosstab(df['y_Actual'], df['y_Predicted'],
-                               rownames=['Actual'], colnames= ['Predicted'])
+                               rownames=['Actual'], colnames= ['Predicted'], margins= True)
 
 print(confusion_matrix)
 
