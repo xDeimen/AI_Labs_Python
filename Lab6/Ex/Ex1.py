@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 
 # Load the data from "evaluation_cars.csv"
 col_names = ["pret", "maintenance cost", "number of doors", "maximum number of passengers", "luggage size", "degree of safety", "decision"]
-data = pd.read_csv(r"C:\\Users\\Cristi\\Downloads\\evaluare_masini.csv", header=0, names= col_names)
+data = pd.read_csv(r"S:\III\Sem II\AI\AI_Labs_Python\Lab6\evaluare_masini.csv", header=0, names= col_names)
 
 #dic=["low": 2, "med": 3, "high": 4, "vhigh": 5]
 # Print the column names to check if they are being read correctly

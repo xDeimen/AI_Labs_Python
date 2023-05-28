@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-cale = "C:\\Users\\guias\\Desktop\\Laboratoare AI\\Laboratory 9 -"
+cale = "S:\III\Sem II\AI\AI_Labs_Python\Lab9\Scripts"
 file = "HR_comma_sep.csv"
 data = pd.read_csv(cale+"\\"+file)
 
